@@ -28,6 +28,9 @@ BOARD_USE_SKIA_LCDTEXT := true
 TARGET_BOARD_INFO_FILE := device/samsung/d710/board-info.txt
 TARGET_RECOVERY_INITRC := device/samsung/d710/recovery.rc
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/d710/bluetooth/include
+
 # Kernel Config
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
 TARGET_KERNEL_CONFIG := cyanogenmod_d710_defconfig
