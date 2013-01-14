@@ -25,9 +25,6 @@ TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 BOARD_USE_SKIA_LCDTEXT := true
 
-TARGET_GLOBAL_CFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
-
 TARGET_BOARD_INFO_FILE := device/samsung/d710/board-info.txt
 TARGET_RECOVERY_INITRC := device/samsung/d710/recovery.rc
 
