@@ -20,7 +20,6 @@
 -include device/samsung/galaxys2-common/BoardCommonConfig.mk
 
 # Boot Animation
-TARGET_ARCH := arm
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 BOARD_USE_SKIA_LCDTEXT := true
@@ -34,9 +33,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/d710/bluetooth/inc
 # Kernel Config
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
 TARGET_KERNEL_CONFIG := cyanogenmod_d710_defconfig
-
-# Audio
-BOARD_USES_ALSA_AUDIO := true
 
 # Graphics
 EGL_ALWAYS_ASYNC := true
