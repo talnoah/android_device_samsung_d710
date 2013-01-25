@@ -32,6 +32,7 @@
     <bool name="config_showNavigationBar">false</bool>
     <string-array translatable="false" name="config_tether_usb_regexs">
         <item>"rndis0"</item>
+        <item>"usb0"</item>
     </string-array>
     <string-array translatable="false" name="config_tether_bluetooth_regexs">
         <item>"bnep\\d"</item>
@@ -195,6 +196,7 @@
         <item>"7,1"</item>
     </string-array>
     <string-array name="config_tether_wimax_regexs">
+        <item>"wimax\\d"</item>
         <item>"uwbr\\d"</item>
     </string-array>
     <string name="config_datause_iface">ppp0</string>
